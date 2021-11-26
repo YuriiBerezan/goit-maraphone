@@ -20,10 +20,10 @@ body {
 
 .my-photo {
   width: 370px;
-  height: 350px;
+  height: 300px;
 }
 
-.main-container {
+.wrapper {
   display: flex;
   flex-direction: row;
   background-color: #fff;
@@ -31,28 +31,54 @@ body {
 
 .about-me-container {
   padding: 110px 90px;
-  pa
-}
-
-.telephone-item,
-.email-item {
-  padding-left: 10px;
-  opacity: 0.5;
 }
 
 .contacts-container,
 .soft-skill-container,
 .tech-skill-container {
+  margin-top: 60px;
+  margin-right: 40px;
+  margin-left: 40px;
   color: #fff;
-  font-weight: bold;
 }
 
-.tech-skill-item,
+.contacts-title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+
 .telephone-item,
 .email-item {
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 10px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.conctacts-link-type {
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.tech-skill-item
+{
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
-  padding: 5px;
+  color: #fb6d3a;
+  margin-left: 15px;
+}
+
+.tech-skill-text{
+    color: #fff;
 }
