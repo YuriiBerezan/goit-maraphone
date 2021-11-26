@@ -1,0 +1,31 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  color: #fff;
+}
+
+.aside-container {
+  background: #1e2939;
+  width: 370px;
+  height: 1320px;
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+
+.telephone,
+.email {
+  color: #808080;
+}
+.contacts-container {
+  color: #fff;
+}
+
+.soft-skill-container {
+  color: #fff;
+}
+
+.tech-skill-container {
+  color: #fff;
+}
