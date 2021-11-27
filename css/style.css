@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #e5e5e5;
   padding: 20px;
 }
@@ -50,10 +50,8 @@ body {
   margin-bottom: 20px;
 }
 
-
 .telephone-item,
 .email-item {
-
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -63,15 +61,13 @@ body {
 }
 
 .conctacts-link-type {
-
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
 }
 
-.tech-skill-item
-{
+.tech-skill-item {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -79,6 +75,66 @@ body {
   margin-left: 15px;
 }
 
-.tech-skill-text{
-    color: #fff;
+.tech-skill-text {
+  color: #fff;
+}
+.profession {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 90px;
+  margin-bottom: 25px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-top: 25px;
+}
+
+.info-container {
+  margin-bottom: 30px;
+}
+
+.about-me-title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.projects-link,
+.tech-name {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project-item {
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.project-container {
+  margin-bottom: 45px;
+}
+
+.profession-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.profession-company {
+  color: #fb6d3a;
 }
