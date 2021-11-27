@@ -7,7 +7,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #e5e5e5;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .sidebar {
@@ -27,6 +30,9 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
 .about-me-container {
@@ -80,7 +86,7 @@ body {
 }
 .profession {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
   margin-bottom: 23px;
 }
@@ -132,9 +138,46 @@ body {
   font-size: 16px;
   line-height: 24px;
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .profession-company {
   color: #fb6d3a;
+}
+
+.profession-time {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #706a6a;
+}
+
+.profession-duties {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.profession-duties-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.dots {
+  color: #bebebe;
+  font-weight: 100;
+}
+
+.institute {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.facultet {
+  margin-bottom: 5px;
 }
