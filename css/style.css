@@ -56,16 +56,6 @@ body {
   margin-bottom: 20px;
 }
 
-.telephone-item,
-.email-item {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  padding-left: 10px;
-  color: #fff;
-  opacity: 0.5;
-}
-
 .conctacts-link-type {
   font-weight: bold;
   font-size: 14px;
@@ -180,4 +170,47 @@ body {
 
 .facultet {
   margin-bottom: 5px;
+}
+
+/*icons*/
+
+.telegram_icon,
+.viber_icon,
+.phone_icon,
+.whatsup_icon {
+  width: 18px;
+  height: 18px;
+}
+
+.telegram_link,
+.viber_link,
+.phone_link_icon,
+.whatsup_link {
+  text-decoration: none;
+}
+
+.telegram_icon,
+.viber_icon,
+.phone_icon {
+  margin-right: 8px;
+}
+
+.telegram_icon {
+  margin-left: 10px;
+}
+
+.telephone-item,
+.email-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 10px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.fb_icon{
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
 }
