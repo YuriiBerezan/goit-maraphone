@@ -210,8 +210,15 @@ body {
   opacity: 0.5;
 }
 
-.fb_icon {
+.fb_icon,
+.linkedin_icon {
   margin-left: 10px;
   width: 25px;
   height: 25px;
+  text-decoration: none;
+}
+
+.linkedin_link,
+.facebook_link {
+  text-decoration: none;
 }
