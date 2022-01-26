@@ -7,7 +7,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #e5e5e5;
-  padding: 20px;
+  /* padding: 5px; */
 }
 
 :root {
@@ -38,7 +38,7 @@ body {
 }
 
 .about-me-container {
-  padding: 110px 90px;
+  padding: 50px 90px;
 }
 
 .contacts-container,
@@ -207,7 +207,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   margin-left: 10px;
-  color: rgb(253, 241, 243);
+  color: tomato;
   opacity: 0.5;
 }
 
